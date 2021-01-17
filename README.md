@@ -20,7 +20,7 @@ LOGIN_ID: HealthPlanetのユーザID
 CLIENT_ID: 先程取得したClient ID
 CLIENT_SECRET: 先ほど取得したClient secret
 CHECK_EXISTS_VENV: venvを使うときはtrue, 使わないまたは自前のときはfalse
-FROM_DATE: `YYYYmmdd`形式で指定可能（TO_DATEより前の日付を指定）または`today`で84日前（28*3）を指定可能
+FROM_DATE: `YYYYmmdd`形式で指定可能（TO_DATEより前の日付を指定）または`minimum`で84日前（28*3）を指定可能
 TO_DATE: `YYYYmmdd`形式で指定可能（FROM_DATEより後の日付を指定）または`today`で現在時刻を指定可能
 OUT_FILE: 出力ファイルのパスを指定（拡張子はjsonを推奨）
 ```

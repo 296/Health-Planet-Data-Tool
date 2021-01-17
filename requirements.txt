@@ -1,0 +1,4 @@
+pyppeteer
+dataclasses-json
+bullet
+requests

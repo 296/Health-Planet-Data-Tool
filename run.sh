@@ -21,7 +21,7 @@ if [ $CHECK_EXISTS_VENV = "true" ]; then
     source $script_dir/venv/bin/activate
 fi
 
-python3 $script_dir/run.py \
+python3 $script_dir/export_data.py \
     -i $LOGIN_ID \
     -c $CLIENT_ID \
     -s $CLIENT_SECRET \
